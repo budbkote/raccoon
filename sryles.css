@@ -27,7 +27,14 @@ img {
   height: 150px;
   align-self: flex-end;
   margin-left: 50px;
+  transition: 1.2s;
 }
+
+img:hover {
+  opacity: 0;
+  transition: 0.2s;
+}
+
 
 /* .door {
   height: 50px;
