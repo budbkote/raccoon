@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  
+}
+
+.wrapper {
+  display: flex;
+  background: linear-gradient(#dcdcdc, #d3d3d3);
+}
+
+.headers {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(#dcdcdc, #d3d3d3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.enot {
+  display: flex;
+}
+
+img {
+  height: 150px;
+  align-self: flex-end;
+  margin-left: 50px;
+}
+
+/* .door {
+  height: 50px;
+  width: 150px;
+  align-self: flex-start;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #2f4f4f;
+  
+} */
+
+.sp {
+  font-family: 'Amatic SC', cursive;
+  font-size: 23px;
+  
+ 
+}
+.h3,
+.h2,
+.h1 {
+  background: linear-gradient(to right, #778899, #708090);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 50%;
+  height: auto;
+  box-shadow: 0 0 30px #2f4f4f;
+  margin-top: 40px;
+  font-size: 30px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Lobster", cursive;
+  font-family: "Monoton", cursive;
+}
+
+.h1 {
+  margin-left: 500px;
+}
+
+.h2 {
+  margin-left: 200px;
+}
+
+.h3 {
+  margin-left: 300px;
+}
